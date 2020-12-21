@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding:0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height:800px;
+    padding:100px 0;
+}
+.header-area{
+    background-image:url(/images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.half-width {
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+}
+.text-area {
+    margin-top:200px;
+}
+h2 {
+    font-size:35px;
+}
+h1 {
+    font-size:50px;
+    color:#000000c7;
+}
+.header-name-style{
+    color:hotpink;
+}
+p {
+    color:dimgray;
+    padding:5px;
+    margin:40px 0;
+    font-weight:400;
+}
+.style-button {
+    text-decoration: none;
+    color: #fff;
+    background:hotpink;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+img{
+    max-width:100%;
+}
+.biography-area{
+    background-image:url(/images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.biography-text{
+    margin-top:200px;
+}
+.latest-work-area{
+    background-image:url(/images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.latest-work-heading{
+    text-align: center;
+    margin-bottom:150px;
+}
+.projects{
+    width:30%;
+    margin-left:3%;
+    float:left;
+}
+.client-review-area{
+    text-align: center;
+    background-image:url(/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position:center center
+}
+.client-review-area h3, p{
+    margin-top:50px;
+}
+.text-style {
+    color:rgb(128, 126, 126);
+}
+.message-area{
+    color:#fff;
+    width:800px;
+    height:160px;
+    background:linear-gradient(90deg, hotpink, pink);
+    margin:0 auto;
+    border-radius:10px;
+    padding-top:40px;
+}
+.copyright {
+    text-align: center;
+}
