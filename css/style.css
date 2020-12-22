@@ -1,8 +1,6 @@
-* {
+body {
     margin: 0;
     padding:0;
-}
-body {
     font-family: 'Poppins', sans-serif;
 }
 section{
@@ -10,7 +8,7 @@ section{
     padding:100px 0;
 }
 .header-area{
-    background-image:url(/images/header-bg.png);
+    background-image:url(../images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -52,7 +50,7 @@ img{
     max-width:100%;
 }
 .biography-area{
-    background-image:url(/images/biography-bg.png);
+    background-image:url(../images/biography-bg.png);
     background-repeat: no-repeat;
     background-position:center center;
 }
@@ -60,7 +58,7 @@ img{
     margin-top:200px;
 }
 .latest-work-area{
-    background-image:url(/images/latest-work-bg.png);
+    background-image:url(../images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-position:center center;
 }
@@ -75,7 +73,7 @@ img{
 }
 .client-review-area{
     text-align: center;
-    background-image:url(/images/footer-bg.png);
+    background-image:url(../images/footer-bg.png);
     background-repeat: no-repeat;
     background-position:center center
 }
